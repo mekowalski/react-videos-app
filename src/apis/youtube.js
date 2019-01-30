@@ -1,4 +1,18 @@
+import axios from 'axios';
+
 const KEY = 'AIzaSyAJPpjtCVPSOF-Q-KIWR3Zjzusl_XYUflc'
+
+export default axiso.create({
+  baseURL: 'https://www.googleapis.com/youtube/v3',
+  params: {
+    part: 'snippet',
+    maxResults: 6,
+    //also have to append api key onto URL
+    key: KEY
+  }
+});
+
+//baseURL will be retrieved and help append '/search'
 
 //cap KEY: this is a constant value that should not be changed
 //This KEY will be used inside the browser
