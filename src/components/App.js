@@ -1,8 +1,13 @@
 import React from 'react';
+import SearchBar from './SearchBar';
 
 class App extends React.Component {
   render() {
-    return <div>This is the Videos App</div>;
+    return (
+      <div>
+        <SearchBar />
+      </div>
+    );
   }
 }
 
