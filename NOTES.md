@@ -40,4 +40,6 @@ COMPONENT HIERARCHY
 
 
 # Component Construction
-[] SearchBar Component(completely identical to Photos SearchBar) a few different props
+[x] SearchBar Component(completely identical to Photos SearchBar) a few different props
+[] Create boilerplate for SearchBar component and show text input
+[x] Pull Semantic UI for aesthetics
