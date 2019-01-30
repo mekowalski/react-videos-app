@@ -48,6 +48,6 @@ COMPONENT HIERARCHY
 - [x] Write code in `youtube.js` to make use of KEY and send API request over to youtube
 - [x] Install, set up and create pre-configured Axios
 
-- [] Try out Youtube API, wire it to SearchBar
+- [x] Try out Youtube API, wire it to SearchBar
 - [] Make request to Youtube API
-- [] Add callback() to class App, called anytime a user submits SearchBar form
+- [x] Add callback() to class App, called anytime a user submits SearchBar form

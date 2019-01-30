@@ -4,20 +4,22 @@ import youtube from '../apis/youtube';
 
 class App extends React.Component {
   onTermSubmit = term => {
-    //pre-configured instance of axios
-    //and can now pass in the params of q
-    //will need to use a promise or async await with this request
     youtube.get('/search', {
       params: {
         q: term
       }
     });
   }
+  //Under Networks by XHR & Fetch
+  //A request shows and you can see entire query string with part, maxResults, KEY and q
+  //That will show a Preview Response from Youtube
+  //Items property 0-5, click on items tag and then snippet tag
+  //That will show infor on the specific video
+  //ie: channelTitle, description, title, etc
 
   render() {
     return (
       <div className='ui container'>
-      //whenever passing a callback Prop to a Component custome-created, can name that prop anything
         <SearchBar onFormSubmit={this.onTermSubmit} />
       </div>
     );
