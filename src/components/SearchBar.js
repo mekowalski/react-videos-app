@@ -3,19 +3,23 @@ import React from 'react';
 class SearchBar extends React.Component {
   state = { term: '' };
 
-  //this is an event callback() therefore define with ES6 =>()
-  onInputChange = () => {
+  //these onAction methods are callbacks that are passed to some Child element
+  onInputChange = event => {
+    this.setState({ term: event.target.value });
+  }
 
+  onFormSubmit = event => {
+    event.preventDefault();
+    //TODO: make sure to call callback() from Parent component
   }
 
   render() {
     return (
       <div className='search-bar ui segment'>
-        <form className='ui form'>
+      //create callback handler on form to watch for sumbittal
+        <form onSubmit={this.onFormSubmit} className='ui form'>
           <div className='field'>
             <label>Video Search</label>
-            //turn input from uncontrolled to a controlled input
-            //hook it to State of SearchBar class, store data(term) inside component and NOT the DOM
             <input
               type='text'
               value={this.state.term}
