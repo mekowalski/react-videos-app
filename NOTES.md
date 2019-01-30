@@ -27,13 +27,13 @@
 
 
 COMPONENT HIERARCHY
-                    ``` APP
+                        APP
             ------------ | ------------
             |            |            |
         SearchBar   VideoDetail   VideoList
                                       |
                                   VideoItem
-```
+
 - Parent/Overall: App, retrieve list of videos and store the search term
 - App will pass props to SearchBar, VideoDetail and VideoList
 - VideoList will also pass props to VideoItem(collection) in order to properly display the videos
