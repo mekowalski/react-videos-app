@@ -9,6 +9,8 @@ export default axiso.create({
     maxResults: 6,
     //also have to append api key onto URL
     key: KEY
+    //missing q:, will specify query only when axios instance is actually used and send a request over
+    //to google api, pass in query string when instance is used
   }
 });
 
