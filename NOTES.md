@@ -12,28 +12,28 @@
 # APP DESIGN
 - Separate components
 - Components:
-  1. SearchBar: identical to Photos App
-    - Show input, user can type which updates State, when the enter key is hit, that triggers a formSubmit
+1. SearchBar: identical to Photos App
+  - Show input, user can type which updates State, when the enter key is hit, that triggers a formSubmit
     event
-    - Send that search term to an App/Parent component which then will actually make the API request
-  2. VideoList: Render entire list of videos
-    - Renders a list of the VideoItem
-  3. VideoItem: One specific video that will be contained in the VideoList
-  4. VideoDetail: Responsible for showing an actual video player that will play the fetched video
-    - Will have a title and description of the video
+  - Send that search term to an App/Parent component which then will actually make the API request
+2. VideoList: Render entire list of videos
+  - Renders a list of the VideoItem
+3. VideoItem: One specific video that will be contained in the VideoList
+4. VideoDetail: Responsible for showing an actual video player that will play the fetched video
+  - Will have a title and description of the video
 
 - The videos will be from Youtube and are not fake
 - Need to figure out how to show and embed the video into the application
 
 
 COMPONENT HIERARCHY
-                        APP
+                    ``` APP
             ------------ | ------------
             |            |            |
         SearchBar   VideoDetail   VideoList
                                       |
                                   VideoItem
-
+```
 - Parent/Overall: App, retrieve list of videos and store the search term
 - App will pass props to SearchBar, VideoDetail and VideoList
 - VideoList will also pass props to VideoItem(collection) in order to properly display the videos
