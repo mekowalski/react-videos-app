@@ -44,4 +44,5 @@ COMPONENT HIERARCHY
 [x] Create boilerplate for SearchBar component and show text input
 [x] Pull Semantic UI for aesthetics
 
-[] Setup Youtube API: make request and display video list on the screen
+[x] Setup Youtube API: make request and display video list on the screen
+[] Write code in `youtube.js` to make use of KEY and send API request over to youtube
