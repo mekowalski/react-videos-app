@@ -49,5 +49,7 @@ COMPONENT HIERARCHY
 - [x] Install, set up and create pre-configured Axios
 
 - [x] Try out Youtube API, wire it to SearchBar
-- [] Make request to Youtube API
+- [x] Make request to Youtube API
 - [x] Add callback() to class App, called anytime a user submits SearchBar form
+
+- [] Take list of videos and render that as a list inside application

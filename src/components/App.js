@@ -16,6 +16,7 @@ class App extends React.Component {
   //Items property 0-5, click on items tag and then snippet tag
   //That will show infor on the specific video
   //ie: channelTitle, description, title, etc
+  //videoId will be used to get the video to play in the application and can be used as key
 
   render() {
     return (
