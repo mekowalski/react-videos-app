@@ -41,5 +41,7 @@ COMPONENT HIERARCHY
 
 # Component Construction
 [x] SearchBar Component(completely identical to Photos SearchBar) a few different props
-[] Create boilerplate for SearchBar component and show text input
+[x] Create boilerplate for SearchBar component and show text input
 [x] Pull Semantic UI for aesthetics
+
+[] Setup Youtube API: make request and display video list on the screen
