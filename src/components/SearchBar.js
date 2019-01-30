@@ -3,7 +3,6 @@ import React from 'react';
 class SearchBar extends React.Component {
   state = { term: '' };
 
-  //these onAction methods are callbacks that are passed to some Child element
   onInputChange = event => {
     this.setState({ term: event.target.value });
   }
@@ -16,7 +15,6 @@ class SearchBar extends React.Component {
   render() {
     return (
       <div className='search-bar ui segment'>
-      //create callback handler on form to watch for sumbittal
         <form onSubmit={this.onFormSubmit} className='ui form'>
           <div className='field'>
             <label>Video Search</label>

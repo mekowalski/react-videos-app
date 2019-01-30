@@ -45,5 +45,5 @@ COMPONENT HIERARCHY
 [x] Pull Semantic UI for aesthetics
 
 [x] Setup Youtube API: make request and display video list on the screen
-[] Write code in `youtube.js` to make use of KEY and send API request over to youtube
-[] Install, set up and create pre-configured Axios
+[x] Write code in `youtube.js` to make use of KEY and send API request over to youtube
+[x] Install, set up and create pre-configured Axios
