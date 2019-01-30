@@ -40,10 +40,14 @@ COMPONENT HIERARCHY
 
 
 # Component Construction
-[x] SearchBar Component(completely identical to Photos SearchBar) a few different props
-[x] Create boilerplate for SearchBar component and show text input
-[x] Pull Semantic UI for aesthetics
+- [x] SearchBar Component(completely identical to Photos SearchBar) a few different props
+- [x] Create boilerplate for SearchBar component and show text input
+- [x] Pull Semantic UI for aesthetics
 
-[x] Setup Youtube API: make request and display video list on the screen
-[x] Write code in `youtube.js` to make use of KEY and send API request over to youtube
-[x] Install, set up and create pre-configured Axios
+- [x] Setup Youtube API: make request and display video list on the screen
+- [x] Write code in `youtube.js` to make use of KEY and send API request over to youtube
+- [x] Install, set up and create pre-configured Axios
+
+- [] Try out Youtube API, wire it to SearchBar
+- [] Make request to Youtube API
+- [] Add callback() to class App, called anytime a user submits SearchBar form
