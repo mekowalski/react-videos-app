@@ -4,3 +4,15 @@ Accessing Youtube API with Axios
 | APP |                                               | YOUTUBE |
  -----             <---Here you go!<---               |   API   |
                                                        ----------
+
+Youtube API Docs
+-Docs don't make the instructions clear regarding search
+
+-Under Request, make a GET request to the URL: https://www.googleapis.com/youtube/v3/search
+-When request is made, pass in a number of params
+  -part = snippet: what info to retrieve about each video, send back some snippet summary of entire video
+  eg: title, link, description, author, etc
+
+  -maxResult: Number of results to get back from search process(Docs is defaulted at 25)
+
+  -q: query, search term to make
