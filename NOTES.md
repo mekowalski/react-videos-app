@@ -74,7 +74,6 @@ COMPONENT HIERARCHY
 Component | className
 -- | --
 VideoList | ui relaxed divided list
--- | --
 VideoItem | item
 VideoItem | item
 VideoItem | item
