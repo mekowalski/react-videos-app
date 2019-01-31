@@ -65,10 +65,10 @@ COMPONENT HIERARCHY
   - Each VideoItem will be custom to show a slightly different video
 
 # Render Video Thumbnails
-- [] Connect both VideoItem and VideoList to the App component
+- [x] Connect both VideoItem and VideoList to the App component
 - [x] Take each video object and pass it down as a prop into each VideoItem created
   - customize each video item component
-- [] Semantic UI to add better styling to thumbnail
+- [x] Semantic UI to add better styling to thumbnail
 
 ### Hierarchy with Semantic UI list
 Component | className
@@ -83,3 +83,8 @@ VideoItem | item
 
 - VideoList component must have a div of `ui relaxed divided list`
 - Each VideoItem has to return an element that has a top-level className of `item`
+
+- [] Create better container with Semantic UI
+- [] Fix image size, currently too large
+- Title text should be modified but neither image/title can work with Semantic UI
+- [] Separate VideoItem CSS file to not clutter up VideoItem component with styling rules
