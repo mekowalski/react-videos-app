@@ -4,8 +4,9 @@ const VideoItem = ({ video }) => {
   //title and thumbnail of video
   //now try to get image(thumbnail) to display
   //img tag refs the thumbnail and pass it to src property
+  //root div needs to have className='item'
   return (
-    <div>
+    <div className='item'>
       <img src={video.snippet.thumbnails.medium.url} />
       {video.snippet.title}
     </div>
@@ -13,7 +14,3 @@ const VideoItem = ({ video }) => {
 }
 
 export default VideoItem
-
-//referencing
-//items tag => snippet => thumbnail => 3 choices(medium quality) => url
-//video.snippet.thumbnails.medium.url

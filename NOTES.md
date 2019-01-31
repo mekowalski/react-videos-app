@@ -80,3 +80,6 @@ VideoItem | item
 VideoItem | item
 VideoItem | item
 VideoItem | item
+
+- VideoList component must have a div of `ui relaxed divided list`
+- Each VideoItem has to return an element that has a top-level className of `item`
