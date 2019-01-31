@@ -66,5 +66,18 @@ COMPONENT HIERARCHY
 
 # Render Video Thumbnails
 - [] Connect both VideoItem and VideoList to the App component
-- [] Take each video object and pass it down as a prop into each VideoItem created
-  - customeize each video item component
+- [x] Take each video object and pass it down as a prop into each VideoItem created
+  - customize each video item component
+- [] Semantic UI to add better styling to thumbnail
+
+### Hierarchy with Semantic UI list
+Component | className
+-- | --
+VideoList | ui relaxed divided list
+-- | --
+VideoItem | item
+VideoItem | item
+VideoItem | item
+VideoItem | item
+VideoItem | item
+VideoItem | item
