@@ -97,10 +97,12 @@ VideoItem | item
 - [x] Get click event on VideoItem
   - Pass function cb() to VideoList then VideoItem
 
-- [] Make sure onVideoSelect takes that video and sets it on the State
+- [x] Make sure onVideoSelect takes that video and sets it on the State
   - specifically on the selectedVideo prop
   - onces that is updated, App can re-render
 
-- [] Create VideoDetail component
+- [x] Create VideoDetail component
   - App renders VideoDetail
   - pass in the selected video to the VideoDetail, as recorded on the State prop within App
+
+- [] improve VideoDetail styling a tiny bit
