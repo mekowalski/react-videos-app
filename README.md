@@ -25,3 +25,8 @@ Kowalski, are you there?
   - Built App to have 2 State props(videos and selectedVideo)
   - Use `this.setState` for both State props on updating videos(VideoList & VideoDetail) with a new search
   - None of the videos are fake, videos can be searched for and played on application
+
+- What this App doesn't do:
+  - There is no user auth/id/login
+  - The Videos App does not display a private list from a specific user
+  - Actions such as: comments/likes/dislikes/shares/etc are not present
