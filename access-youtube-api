@@ -29,10 +29,15 @@ COMMUNICATE FROM CHILD TO PARENT
             |            |            |
         SearchBar   VideoDetail   VideoList
                                       |
-                                  VideoItem
+                         ------------ | ------------
+                         |            |            |
+                    VideoItem     VideoItem     VideoItem
+
 
 -App component currently has State Object with a single prop on it: Video
 -Add 2nd prop calls selectedVideo
   -Take video object and assign it to selectedVideo prop
   -Anytime there is a selectedVideo prop, make sure that video is passed down to the VideoDetail Component
   -Tells VideoDetail component what needs to show on the screen
+
+-Complicated: understand how to update selectedVideo prop with a user clicks on a single Video
