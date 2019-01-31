@@ -121,6 +121,6 @@ VideoItem | item
 - When new search is made, clear the current video
 
 ### Fixing some errors
-- [] iframe element needs a title assigned to it
-- [] make sure img elements have an appropriate alt property
+- [x] iframe element needs a title assigned to it
+- [x] make sure img elements have an appropriate alt property
 - [] each list of records needs to have a KEY prop assigned to it
