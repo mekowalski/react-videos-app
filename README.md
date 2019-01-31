@@ -22,3 +22,6 @@ Kowalski, are you there?
   - VideoList: Render entire list of videos(VideoItem)
   - VideoItem: One specific video that will be contained in the VideoList
   - VideoDetail: Responsible for showing an actual video player that will play the fetched video with a few details of title and description
+  - Built App to have 2 State props(videos and selectedVideo)
+  - Use `this.setState` for both State props on updating videos(VideoList & VideoDetail) with a new search
+  - None of the videos are fake, videos can be searched for and played on application
