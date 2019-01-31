@@ -46,3 +46,11 @@ COMMUNICATE FROM CHILD TO PARENT
 3. VideoList will take cb() and pass it down to each video item
 4. Each video item currently recieves a props object with a single video
 5. Each video item will now take a 2nd prop called onVideoSelect(same cb() from App to VideoList)
+
+*Adding new method to App Component
+*And passing a reference to that method/function
+*Down first to the VideoList then to the VideoItem
+*Any time a video item is clicked, it will tell the VideoItem to call the onVideoSelect cb()
+*Then it will pass in the video that was also called
+*Finally the method/function on the App component is invoked with video object, the App Component will
+ update its State and to whatever video was clicked on
