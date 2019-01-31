@@ -3,6 +3,7 @@ import SearchBar from './SearchBar';
 import youtube from '../apis/youtube';
 import VideoList from './VideoList';
 
+//Update state on the App class
 class App extends React.Component {
   state = { videos: [], selectedVideo: null };
 
@@ -15,9 +16,9 @@ class App extends React.Component {
     this.setState({ videos: response.data.items })
   }
 
+
   onVideoSelect = (video) => {
-    console.log('from the app', video)
-    //this is correct in the console
+    this.setState({ selectedVideo: video })
   }
 
   render() {

@@ -102,4 +102,5 @@ VideoItem | item
   - onces that is updated, App can re-render
 
 - [] Create VideoDetail component
-  - pass in the selected video to the VideoDetail
+  - App renders VideoDetail
+  - pass in the selected video to the VideoDetail, as recorded on the State prop within App
