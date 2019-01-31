@@ -22,6 +22,8 @@ class App extends React.Component {
     this.setState({ selectedVideo: video })
   }
 
+  //VideoList renders a list therefore passing a plural, array of objects named videos makes sense
+  //VideoDetail passes one single object alone therefore props is named video
   render() {
     return (
       <div className='ui container'>
