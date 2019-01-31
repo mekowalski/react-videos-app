@@ -108,9 +108,14 @@ VideoItem | item
 - [x] improve VideoDetail styling a tiny bit
   - maybe show a panel with the title and description
 
-- [] Make sure to actually show a video player on the screen
+- [x] Make sure to actually show a video player on the screen
   - make each video playable
   - VideoDetail is responsible of video player
   - introduce iframe tag(HTML)
   - iframe attempts to make a request to an outside website
-  - [] make iframe element and tell it to request on its own(without AJAX) over to Youtube address
+  - [x] make iframe element and tell it to request on its own(without AJAX) over to Youtube address
+
+## Create Similar Youtube Display
+- List of videos to appear on right-hand side of the current video
+- Current video should veer more to left and be large with video play
+- When new search is made, clear the current video
