@@ -119,3 +119,8 @@ VideoItem | item
 - List of videos to appear on right-hand side of the current video
 - Current video should veer more to left and be large with video play
 - When new search is made, clear the current video
+
+### Fixing some errors
+- [] iframe element needs a title assigned to it
+- [] make sure img elements have an appropriate alt property
+- [] each list of records needs to have a KEY prop assigned to it
