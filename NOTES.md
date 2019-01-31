@@ -53,3 +53,5 @@ COMPONENT HIERARCHY
 - [x] Add callback() to class App, called anytime a user submits SearchBar form
 
 - [] Take list of videos and render that as a list inside application
+- Take list of videos received and set it as State in the App component
+- Allowing App to update/re-render itself, which then allows rendering newly fetch videos onto screen
