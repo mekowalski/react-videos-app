@@ -1,9 +1,9 @@
 import React from 'react';
 
-const VideoItem = props => {
+const VideoItem = ({ video }) => {
   //title and thumbnail of video
   //what different props to refer to
-  return <div>I am a video item</div>
+  return <div>{video.snippet.title}</div>
 };
 
 export default VideoItem

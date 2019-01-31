@@ -9,3 +9,7 @@ const VideoList = ({ videos }) => {
 };
 
 export default VideoList
+
+//referencing
+//items tag => snippet => title
+//video.snippet.title
