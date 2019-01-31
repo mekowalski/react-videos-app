@@ -105,5 +105,12 @@ VideoItem | item
   - App renders VideoDetail
   - pass in the selected video to the VideoDetail, as recorded on the State prop within App
 
-- [] improve VideoDetail styling a tiny bit
+- [x] improve VideoDetail styling a tiny bit
   - maybe show a panel with the title and description
+
+- [] Make sure to actually show a video player on the screen
+  - make each video playable
+  - VideoDetail is responsible of video player
+  - introduce iframe tag(HTML)
+  - iframe attempts to make a request to an outside website
+  - [] make iframe element and tell it to request on its own(without AJAX) over to Youtube address
