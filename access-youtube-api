@@ -54,3 +54,5 @@ COMMUNICATE FROM CHILD TO PARENT
 *Then it will pass in the video that was also called
 *Finally the method/function on the App component is invoked with video object, the App Component will
  update its State and to whatever video was clicked on
+
+*When Communicating from Child to Parent, make use of callback()(onVideoSelect)

@@ -93,6 +93,13 @@ VideoItem | item
 - When a video from the list is clicked, the video should display prominently with its player and its
   tile and description underneath
 - How to make sure clicking on the video will open up a detailed window of sorts
-- [] Add new state prop of `selectedVideo`
-- [] Get click event on VideoItem
+- [x] Add new state prop of `selectedVideo`
+- [x] Get click event on VideoItem
   - Pass function cb() to VideoList then VideoItem
+
+- [] Make sure onVideoSelect takes that video and sets it on the State
+  - specifically on the selectedVideo prop
+  - onces that is updated, App can re-render
+
+- [] Create VideoDetail component
+  - pass in the selected video to the VideoDetail
