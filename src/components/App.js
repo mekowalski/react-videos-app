@@ -27,13 +27,15 @@ class App extends React.Component {
         <SearchBar onFormSubmit={this.onTermSubmit} />
         <div className='ui grid'>
           <div className='ui row'>
-          //when using this grid, anything put inside a single row will be attempted to render in the same line
-          //if the ui row isn't present, VideoDetail & VideoList will try to render on different rows
-            <VideoDetail video={this.state.selectedVideo} />
-            <VideoList
-              onVideoSelect={this.onVideoSelect}
-              videos={this.state.videos}
-            />
+            <div className='eleven wide column'>
+              <VideoDetail video={this.state.selectedVideo} />
+            </div>
+            <div className='five wide column'>
+              <VideoList
+                onVideoSelect={this.onVideoSelect}
+                videos={this.state.videos}
+              />
+            </div> //individual divs form the 2 separate columns for list and details
           </div>
         </div>
       </div>
