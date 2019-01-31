@@ -84,7 +84,12 @@ VideoItem | item
 - VideoList component must have a div of `ui relaxed divided list`
 - Each VideoItem has to return an element that has a top-level className of `item`
 
-- [] Create better container with Semantic UI
-- [] Fix image size, currently too large
+- [x] Create better container with Semantic UI
+- [x] Fix image size, currently too large
 - Title text should be modified but neither image/title can work with Semantic UI
-- [] Separate VideoItem CSS file to not clutter up VideoItem component with styling rules
+- [x] Separate VideoItem CSS file to not clutter up VideoItem component with styling rules
+
+# Communicate Child to Parent
+- When a video from the list is clicked, the video should display prominently with its player and its
+  tile and description underneath
+- How to make sure clicking on the video will open up a detailed window of sorts
