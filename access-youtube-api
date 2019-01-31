@@ -16,3 +16,17 @@ Youtube API Docs
   -maxResult: Number of results to get back from search process(Docs is defaulted at 25)
 
   -q: query, search term to make
+
+
+COMMUNICATE FROM CHILD TO PARENT
+
+                        APP
+                       state
+                  videos | [video...]
+            selecteVideo | video        <---Video object retrieved from Youtube API
+                         |
+            ------------ | ------------
+            |            |            |
+        SearchBar   VideoDetail   VideoList
+                                      |
+                                  VideoItem
