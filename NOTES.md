@@ -128,6 +128,8 @@ VideoItem | item
   - use grid system with semantic ui/ Not Grid CSS/ Use Semantic Ui's grid system  
 
 ### Default video selection
-- [] figure out a default term to remove/replace static `Loading...` in VideoDetail
-- [] new search should clear current video
+- [x] figure out a default term to remove/replace static `Loading...` in VideoDetail
+  - componentDidMount() lifecycle inside App, attempt to make default search when this app is first rendered to the screen
+
+- [x] new search should clear current video
 - one little fix to address both issues above
