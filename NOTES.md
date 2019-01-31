@@ -106,3 +106,4 @@ VideoItem | item
   - pass in the selected video to the VideoDetail, as recorded on the State prop within App
 
 - [] improve VideoDetail styling a tiny bit
+  - maybe show a panel with the title and description
