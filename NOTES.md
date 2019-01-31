@@ -123,4 +123,5 @@ VideoItem | item
 ### Fixing some errors
 - [x] iframe element needs a title assigned to it
 - [x] make sure img elements have an appropriate alt property
-- [] each list of records needs to have a KEY prop assigned to it
+- [x] each list of records needs to have a KEY prop assigned to it
+- [] make video list show on right hand side of the main/current video
