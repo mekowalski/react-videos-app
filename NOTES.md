@@ -56,9 +56,10 @@ COMPONENT HIERARCHY
 - Take list of videos received and set it as State in the App component
 - Allowing App to update/re-render itself, which then allows rendering newly fetch videos onto screen
 
-- [] Focus on list of videos and rendering out as a list
-- [] Create VideoList component
+- [x] Focus on list of videos and rendering out as a list
+- [x] Create VideoList component
   - Render an array of video objects
 - [] Create VideoItem component
   - For each video, render a single video item
+  - Make sure VideoList shows a list of VideoItem(s)
 - [] Connect both VideoItem and VideoList to the App component
