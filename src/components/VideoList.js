@@ -1,9 +1,15 @@
 import React from 'react';
+import VideoItem from './VideoItem';
 
+//map over videos array, and render 1 single video item component
 const VideoList = ({ videos }) => {
-  //fix: rather then reference props, destructure instead, just videos prop out props object
-  //also don't want number of videos renders, want to render the videos out as a list
-  return <div>{videos.length}</div>
+  //map over this array, return a brand new array
+  //assign the list of video item components
+  const renderedList = videos.map((video) => {
+    return <VideoItem />;
+  })
+  //print out renderedList
+  return <div>{renderedList}</div>
 };
 
 export default VideoList
