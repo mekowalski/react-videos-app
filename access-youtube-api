@@ -41,3 +41,8 @@ COMMUNICATE FROM CHILD TO PARENT
   -Tells VideoDetail component what needs to show on the screen
 
 -Complicated: understand how to update selectedVideo prop with a user clicks on a single Video
+1. At the very top is the App component, has list of videos passed as prop to VideoList
+2. App passes a reference of a callback() down to VideoList(onVideoSelect prop)
+3. VideoList will take cb() and pass it down to each video item
+4. Each video item currently recieves a props object with a single video
+5. Each video item will now take a 2nd prop called onVideoSelect(same cb() from App to VideoList)
