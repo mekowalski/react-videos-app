@@ -59,8 +59,12 @@ COMPONENT HIERARCHY
 - [x] Focus on list of videos and rendering out as a list
 - [x] Create VideoList component
   - Render an array of video objects
-- [] Create VideoItem component
+- [x] Create VideoItem component
   - For each video, render a single video item
   - Make sure VideoList shows a list of VideoItem(s)
   - Each VideoItem will be custom to show a slightly different video
+
+# Render Video Thumbnails
 - [] Connect both VideoItem and VideoList to the App component
+- [] Take each video object and pass it down as a prop into each VideoItem created
+  - customeize each video item component
