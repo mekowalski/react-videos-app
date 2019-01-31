@@ -23,10 +23,16 @@ COMMUNICATE FROM CHILD TO PARENT
                         APP
                        state
                   videos | [video...]
-            selecteVideo | video        <---Video object retrieved from Youtube API
+            selectedVideo | video        <---Video object retrieved from Youtube API
                          |
             ------------ | ------------
             |            |            |
         SearchBar   VideoDetail   VideoList
                                       |
                                   VideoItem
+
+-App component currently has State Object with a single prop on it: Video
+-Add 2nd prop calls selectedVideo
+  -Take video object and assign it to selectedVideo prop
+  -Anytime there is a selectedVideo prop, make sure that video is passed down to the VideoDetail Component
+  -Tells VideoDetail component what needs to show on the screen

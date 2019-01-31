@@ -93,3 +93,4 @@ VideoItem | item
 - When a video from the list is clicked, the video should display prominently with its player and its
   tile and description underneath
 - How to make sure clicking on the video will open up a detailed window of sorts
+- [] Add new state prop of `selectedVideo`
