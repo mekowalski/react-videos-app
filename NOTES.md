@@ -62,4 +62,5 @@ COMPONENT HIERARCHY
 - [] Create VideoItem component
   - For each video, render a single video item
   - Make sure VideoList shows a list of VideoItem(s)
+  - Each VideoItem will be custom to show a slightly different video
 - [] Connect both VideoItem and VideoList to the App component
