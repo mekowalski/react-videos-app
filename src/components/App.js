@@ -3,8 +3,9 @@ import SearchBar from './SearchBar';
 import youtube from '../apis/youtube';
 import VideoList from './VideoList';
 
+//first add new prop to state
 class App extends React.Component {
-  state = { videos: [] };
+  state = { videos: [], selectedVideo: null };
 
   onTermSubmit = async term => {
     const response = await youtube.get('/search', {
@@ -15,11 +16,21 @@ class App extends React.Component {
     this.setState({ videos: response.data.items })
   }
 
+  //add new cb()
+  //video is the object fetched from youtube api
+  onVideoSelect = (video) => {
+    console.log('from the app', video)
+  }
+
+  //then pass cb() reference in VideoList as a prop
   render() {
     return (
       <div className='ui container'>
         <SearchBar onFormSubmit={this.onTermSubmit} />
-        <VideoList videos={this.state.videos} />
+        <VideoList
+          onVideoSelect={this.onVideoSelect}
+          videos={this.state.videos}
+        />
       </div>
     );
   }

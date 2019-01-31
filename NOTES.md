@@ -94,3 +94,5 @@ VideoItem | item
   tile and description underneath
 - How to make sure clicking on the video will open up a detailed window of sorts
 - [] Add new state prop of `selectedVideo`
+- [] Get click event on VideoItem
+  - Pass function cb() to VideoList then VideoItem
